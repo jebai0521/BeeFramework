@@ -68,7 +68,7 @@
 @property (nonatomic, readonly) BOOL				reachRight;
 
 @property (nonatomic, assign) BOOL					reloaded;
-@property (nonatomic, readonly) BOOL				reloading;
+@property (nonatomic, assign) BOOL				reloading;
 @property (nonatomic, retain) NSMutableArray *		reuseQueue;
 
 @property (nonatomic, readonly) CGPoint				scrollSpeed;

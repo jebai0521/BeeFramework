@@ -277,7 +277,7 @@ DEF_SINGLETON( BeeUIConfig )
 	}
 	else
 	{
-		return UIEdgeInsetsMake( 0.0f, 0.0f, 0.0f, 0.0f );
+		return UIEdgeInsetsMake( 64.0f, 0.0f, 0.0f, 0.0f );
 	}
 }
 

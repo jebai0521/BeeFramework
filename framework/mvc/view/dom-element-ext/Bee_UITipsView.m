@@ -521,6 +521,11 @@ DEF_SINGLETON( BeeUITipsCenter )
 - (BeeUITipsView *)presentLoadingTips:(NSString *)message inView:(UIView *)view
 {
 	BeeUILoadingTipsView * tips = [[BeeUILoadingTipsView alloc] init];
+    
+    [tips.bubbleView setBackgroundColor:[UIColor clearColor]];
+    tips.labelView.textColor = [UIColor blackColor];
+    tips.indicator.color = [UIColor blackColor];
+    
 	tips.labelView.text = message;
 	[tips presentInView:view];
 	[tips.indicator startAnimating];
