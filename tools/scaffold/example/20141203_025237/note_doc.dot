@@ -1,0 +1,136 @@
+digraph Protocol
+{
+	graph
+	[
+		rankdir = LR;
+		label = "(null)";
+		ratio = "auto";
+		splines = curved;
+	];
+
+	node
+	[
+		fontname = melon;
+		fontsize = 14;
+		shape = box;
+	];
+
+	subgraph cluster_models
+	{
+		label = "";
+		style = stroke;
+		color = white;
+
+	//	@interface Note
+		"Note"
+		[
+			color = red;
+			style = stroke;
+			shape = record;
+			label = "<name> 数据表 Note | <content> content TEXT| <created_at> created_at TEXT| <title> title TEXT| <id> id INT";
+		];
+
+	}
+
+	subgraph cluster_controllers
+	{
+		label = "";
+		style = stroke;
+		color = white;
+
+	//	/notes<__NSMallocBlock__: 0x7fc223c148e0>
+		subgraph cluster_API_NOTES
+		{
+			color = grey;
+			style = stroke;
+			label = "GET /notes\n";
+
+			"API_NOTES"
+			[
+				color = blue;
+				style = stroke;
+				shape = record;
+				label = "<name> API_NOTES| <req> req| <resp> resp";
+			];
+
+			"API_NOTES":req -> "REQ_NOTES":name
+			[
+				color = grey20
+				fontcolor = grey20
+			];
+			"REQ_NOTES"
+			[
+				color = blue;
+				style = stroke;
+				shape = record;
+				label = "<name> 请求包体 Request| <page> page INT| <per_page> per_page INT";
+			];
+
+			"API_NOTES":resp -> "RESP_NOTES":name
+			[
+				color = grey20
+				fontcolor = grey20
+			];
+			"RESP_NOTES"
+			[
+				color = blue;
+				style = stroke;
+				shape = record;
+				label = "<name> 回应包体 Response| <notes> notes \[Note*\]| <page> page INT| <pages> pages INT| <per_page> per_page INT| <total> total INT";
+			];
+
+		};
+
+
+		"RESP_NOTES":notes -> "Note":name
+		[
+			color = "grey25";
+			fontcolor = grey20;
+		];
+
+	//	/notes/:id<__NSMallocBlock__: 0x7fc223c168b0>
+		subgraph cluster_API_NOTES_ID
+		{
+			color = grey;
+			style = stroke;
+			label = "GET /notes/:id\n";
+
+			"API_NOTES_ID"
+			[
+				color = blue;
+				style = stroke;
+				shape = record;
+				label = "<name> API_NOTES_ID| <resp> resp| <id> :id";
+			];
+
+			"REQ_NOTES_ID"
+			[
+				color = blue;
+				style = stroke;
+				shape = record;
+				label = "<name> 请求包体 Request| <empty> 空";
+			];
+			"API_NOTES_ID":resp -> "Note":name
+			[
+				color = grey20
+				fontcolor = grey20
+			];
+			"RESP_NOTES_ID"
+			[
+				color = blue;
+				style = stroke;
+				shape = record;
+				label = "<name> 回应包体 Response| <RESP_NOTES_ID> RESP_NOTES_ID (Note*)";
+			];
+
+		};
+
+		"RESP_NOTES_ID":RESP_NOTES_ID -> "Note":name
+		[
+			color = "grey25";
+			fontcolor = grey20;
+		];
+
+	}
+
+}

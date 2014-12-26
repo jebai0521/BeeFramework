@@ -1,0 +1,35 @@
+digraph Protocol
+{
+	graph
+	[
+		rankdir = LR;
+		label = "(null)";
+		ratio = "auto";
+		splines = curved;
+	];
+
+	node
+	[
+		fontname = melon;
+		fontsize = 14;
+		shape = box;
+	];
+
+	subgraph cluster_models
+	{
+		label = "";
+		style = stroke;
+		color = white;
+
+	//	@interface Note
+		"Note"
+		[
+			color = red;
+			style = stroke;
+			shape = record;
+			label = "<name> 数据表 Note | <content> content TEXT| <created_at> created_at TEXT| <title> title TEXT| <id> id INT";
+		];
+
+	}
+
+}

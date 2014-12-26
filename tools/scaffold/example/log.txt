@@ -1,0 +1,730 @@
+Warning: Error creating LLDB target at path '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/build/Debug-iphonesimulator/dribbble.app'- using an empty LLDB target which can cause slow memory reads from remote devices.
+                                                    
+                                                    
+         ______    ______    ______                 
+        /\  __ \  /\  ___\  /\  ___\            
+        \ \  __<  \ \  __\_ \ \  __\_       
+         \ \_____\ \ \_____\ \ \_____\      
+          \/_____/  \/_____/  \/_____/          
+                                                    
+                                                    
+        version 0.6.0                                   
+                                                    
+iPhone OS 8.1   
+iPhone Simulator    
+                                                    
+UUID: 182f58a46fe2ffdf92a508e866ff8fb6295c11a8  
+Home: /Users/jebai/Library/Developer/CoreSimulator/Devices/FA0B6CC3-77CA-4145-B2C3-4C72944669F9/data/Containers/Bundle/Application/40CC8110-3F40-42BF-8077-A3B51EC3BFB1/dribbble.app    
+                                                    
+[INFO]  Loading services ...
+2014-12-03 14:47:31.761 dribbble[38852:17784414] CLTilesManagerClient: initialize, sSharedTilesManagerClient
+2014-12-03 14:47:31.762 dribbble[38852:17784414] CLTilesManagerClient: init
+2014-12-03 14:47:31.762 dribbble[38852:17784414] CLTilesManagerClient: reconnecting, 0x7af107d0
+[INFO]      Service 'ServiceLiveload' loaded
+[INFO]  Notification 'BeeUIApplication.LAUNCHED'
+2014-12-03 14:47:32.108 dribbble[38852:17784414] Application windows are expected to have a root view controller at the end of application launch
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/DribbbleBoard_iPhone.xml' loaded
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/DribbbleBoardTab_iPhone.xml' loaded
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/PullLoader.xml' loaded
+[PERF]  Signal 'BeeUIPullLoader.FRAME_CHANGED' > PullLoader > Done
+[PERF]  Signal 'BeeUIPullLoader.FRAME_CHANGED' > PullLoader > Done
+[PERF]  Signal 'BeeUIPullLoader.FRAME_CHANGED' > PullLoader > BeeUIScrollView > DribbbleBoard_iPhone > Done
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/FootLoader.xml' loaded
+[PERF]  Signal 'BeeUIFootLoader.FRAME_CHANGED' > FootLoader > Done
+[PERF]  Signal 'BeeUIFootLoader.FRAME_CHANGED' > FootLoader > Done
+[PERF]  Signal 'BeeUIBoard.CREATE_VIEWS' > DribbbleBoard_iPhone > Done
+[PERF]  Signal 'BeeUIBoard.LOAD_DATAS' > DribbbleBoard_iPhone > Done
+[PERF]  UIScrollView 0x7c961a00, reloadData
+[PERF]  Signal 'BeeUIPullLoader.FRAME_CHANGED' > PullLoader > BeeUIScrollView > DribbbleBoard_iPhone > Done
+[PERF]  Signal 'BeeUIFootLoader.FRAME_CHANGED' > FootLoader > BeeUIScrollView > DribbbleBoard_iPhone > Done
+[PERF]  Signal 'BeeUIBoard.LAYOUT_VIEWS' > DribbbleBoard_iPhone > Done
+[PERF]  UIScrollView 0x7c961a00, reloadData
+[PERF]  visibleStart 0 => 0
+[PERF]  visibleEnd 0 => 8
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 0 => 'DribbbleBoardCell_iPhone'
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/DribbbleBoardCell_iPhone.xml' loaded
+[PERF]  UIScrollView 0x7c961a00, create 'DribbbleBoardCell_iPhone' 0x7fcbc9d0
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 1 => 'DribbbleBoardCell_iPhone'
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/DribbbleBoardCell_iPhone.xml' loaded
+[PERF]  UIScrollView 0x7c961a00, create 'DribbbleBoardCell_iPhone' 0x7b111960
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 2 => 'DribbbleBoardCell_iPhone'
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/DribbbleBoardCell_iPhone.xml' loaded
+[PERF]  UIScrollView 0x7c961a00, create 'DribbbleBoardCell_iPhone' 0x7fe87da0
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 3 => 'DribbbleBoardCell_iPhone'
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/DribbbleBoardCell_iPhone.xml' loaded
+[PERF]  UIScrollView 0x7c961a00, create 'DribbbleBoardCell_iPhone' 0x7feabdd0
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 4 => 'DribbbleBoardCell_iPhone'
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/DribbbleBoardCell_iPhone.xml' loaded
+[PERF]  UIScrollView 0x7c961a00, create 'DribbbleBoardCell_iPhone' 0x7fecfa70
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 5 => 'DribbbleBoardCell_iPhone'
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/DribbbleBoardCell_iPhone.xml' loaded
+[PERF]  UIScrollView 0x7c961a00, create 'DribbbleBoardCell_iPhone' 0x7fef3ab0
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 6 => 'DribbbleBoardCell_iPhone'
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/DribbbleBoardCell_iPhone.xml' loaded
+[PERF]  UIScrollView 0x7c961a00, create 'DribbbleBoardCell_iPhone' 0x7fe5a190
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 7 => 'DribbbleBoardCell_iPhone'
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/DribbbleBoardCell_iPhone.xml' loaded
+[PERF]  UIScrollView 0x7c961a00, create 'DribbbleBoardCell_iPhone' 0x7fe36150
+[PERF]  Signal 'BeeUIFootLoader.FRAME_CHANGED' > FootLoader > BeeUIScrollView > DribbbleBoard_iPhone > Done
+[PERF]  Signal 'BeeUIBoard.CREATE_VIEWS' > BeeUIRouter > Done
+[PERF]  Signal 'BeeUIBoard.LOAD_DATAS' > BeeUIRouter > Done
+[PERF]  Signal 'BeeUIBoard.WILL_APPEAR' > DribbbleBoard_iPhone > Done
+[PERF]  Signal 'BeeUIBoard.DID_APPEAR' > DribbbleBoard_iPhone > Done
+[PERF]  UIScrollView 0x7c961a00, reloadData
+[PERF]  Signal 'BeeUIBoard.LAYOUT_VIEWS' > DribbbleBoard_iPhone > Done
+[PERF]  UIScrollView 0x7c961a00, reloadData
+[PERF]  Signal 'BeeUIBoard.LAYOUT_VIEWS' > DribbbleBoard_iPhone > Done
+[INFO]  Notification 'BeeUIApplication.STATE_CHANGED'
+[INFO]  Service 'ServiceInspector' activating
+[INFO]  Service 'ServiceLiveload' activating
+[INFO]  Notification 'BeeReachability.WIFI_REACHABLE'
+[INFO]  Notification 'BeeReachability.CHANGED'
+[PERF]  Signal 'BeeUIPullLoader.STATE_CHANGED' > PullLoader > BeeUIScrollView > DribbbleBoard_iPhone > Done
+[PERF]  Signal 'BeeUIFootLoader.STATE_CHANGED' > FootLoader > BeeUIScrollView > DribbbleBoard_iPhone > Done
+[PERF]  Signal 'ShotPopularListModel.RELOADING' > ShotPopularListModel > DribbbleBoard_iPhone > Done
+[INFO]  Message 'API_SHOTS_LIST' sent
+[INFO]          HTTP GET http://api.dribbble.com/shots/popular?page=1&per_page=30
+        (null)
+[INFO]          HTTP GET 'http://api.dribbble.com/shots/popular?page=1&per_page=30', upload 0/0
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 0 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 1 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 2 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 3 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 4 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 5 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 6 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 7 => 'DribbbleBoardCell_iPhone'
+[PERF]  visibleStart 0 => 0
+[PERF]  visibleEnd 0 => 8
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 0 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fe36150
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 1 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fe5a190
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 2 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fef3ab0
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 3 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fecfa70
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 4 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7feabdd0
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 5 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fe87da0
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 6 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7b111960
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 7 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fcbc9d0
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/4454/screenshots/1830811/holiday_card_copy.jpg
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/4454/screenshots/1830811/holiday_card_copy.jpg', upload 0/0
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', upload 0/0
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/16711/screenshots/1831334/circles-conference.png
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/16711/screenshots/1831334/circles-conference.png', upload 0/0
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/3460/screenshots/1831765/mini-avatar.gif
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/3460/screenshots/1831765/mini-avatar.gif', upload 0/0
+[INFO]          HTTP GET 'http://api.dribbble.com/shots/popular?page=1&per_page=30', download 929/0
+[INFO]          HTTP GET 'http://api.dribbble.com/shots/popular?page=1&per_page=30', download 10219/10219
+[INFO]  HTTP 200(HTTP/1.1 200 OK)
+        http://api.dribbble.com/shots/popular?page=1&per_page=30
+        
+[INFO]  Message 'API_SHOTS_LIST' succeed
+[PERF]  Signal 'BeeUIPullLoader.STATE_CHANGED' > PullLoader > BeeUIScrollView > DribbbleBoard_iPhone > Done
+[PERF]  Signal 'BeeUIFootLoader.STATE_CHANGED' > FootLoader > BeeUIScrollView > DribbbleBoard_iPhone > Done
+[PERF]  Signal 'BeeUIFootLoader.STATE_CHANGED' > FootLoader > BeeUIScrollView > DribbbleBoard_iPhone > Done
+[PERF]  UIScrollView 0x7c961a00, reloadData
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 0 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 1 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 2 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 3 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 4 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 5 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 6 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 7 => 'DribbbleBoardCell_iPhone'
+[PERF]  visibleStart 0 => 0
+[PERF]  visibleEnd 0 => 8
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 0 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fcbc9d0
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 1 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7b111960
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 2 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fe87da0
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/3460/screenshots/1831765/mini-avatar.gif', cancelled
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 3 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7feabdd0
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 4 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fecfa70
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/16711/screenshots/1831334/circles-conference.png', cancelled
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 5 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fef3ab0
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 6 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fe5a190
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', cancelled
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 7 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fe36150
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/4454/screenshots/1830811/holiday_card_copy.jpg', cancelled
+[PERF]  Signal 'ShotPopularListModel.RELOADED' > ShotPopularListModel > DribbbleBoard_iPhone > Done
+[INFO]          HTTP GET 'http://api.dribbble.com/shots/popular?page=1&per_page=30', succeed
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/4454/screenshots/1830811/holiday_card_copy.jpg
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/4454/screenshots/1830811/holiday_card_copy.jpg', upload 0/0
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', upload 0/0
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/3460/screenshots/1831765/mini-avatar.gif
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/3460/screenshots/1831765/mini-avatar.gif', upload 0/0
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/16711/screenshots/1831334/circles-conference.png
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/16711/screenshots/1831334/circles-conference.png', upload 0/0
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/3460/screenshots/1831765/mini-avatar.gif', download 15822/344474
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/16711/screenshots/1831334/circles-conference.png', download 15822/244307
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 15822/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 15822/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/3460/screenshots/1831765/mini-avatar.gif', download 32206/344474
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/16711/screenshots/1831334/circles-conference.png', download 15822/244307
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 64413/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/3460/screenshots/1831765/mini-avatar.gif', download 80797/344474
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/16711/screenshots/1831334/circles-conference.png', download 64403/244307
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/4454/screenshots/1830811/holiday_card_copy.jpg', download 15821/400249
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/4454/screenshots/1830811/holiday_card_copy.jpg', download 32205/400249
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 97181/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/3460/screenshots/1831765/mini-avatar.gif', download 113565/344474
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/16711/screenshots/1831334/circles-conference.png', download 80787/244307
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/4454/screenshots/1830811/holiday_card_copy.jpg', download 48589/400249
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 113565/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/4454/screenshots/1830811/holiday_card_copy.jpg', download 64406/400249
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 146333/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/3460/screenshots/1831765/mini-avatar.gif', download 146333/344474
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/4454/screenshots/1830811/holiday_card_copy.jpg', download 97174/400249
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 179101/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/3460/screenshots/1831765/mini-avatar.gif', download 179101/344474
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/4454/screenshots/1830811/holiday_card_copy.jpg', download 129942/400249
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 211869/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/3460/screenshots/1831765/mini-avatar.gif', download 211869/344474
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/4454/screenshots/1830811/holiday_card_copy.jpg', download 146326/400249
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 244637/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/4454/screenshots/1830811/holiday_card_copy.jpg', download 179094/400249
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 277405/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/3460/screenshots/1831765/mini-avatar.gif', download 244637/344474
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/4454/screenshots/1830811/holiday_card_copy.jpg', download 195478/400249
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 310173/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/3460/screenshots/1831765/mini-avatar.gif', download 261021/344474
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/4454/screenshots/1830811/holiday_card_copy.jpg', download 228246/400249
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 359325/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/3460/screenshots/1831765/mini-avatar.gif', download 293789/344474
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/4454/screenshots/1830811/holiday_card_copy.jpg', download 261014/400249
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 392093/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/3460/screenshots/1831765/mini-avatar.gif', download 326557/344474
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/3460/screenshots/1831765/mini-avatar.gif', download 344474/344474
+[INFO]  HTTP 200(HTTP/1.1 200 OK)
+        https://d13yacurqjgara.cloudfront.net/users/3460/screenshots/1831765/mini-avatar.gif
+        
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/3460/screenshots/1831765/mini-avatar.gif', succeed
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/4454/screenshots/1830811/holiday_card_copy.jpg', download 293782/400249
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 424861/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/4454/screenshots/1830811/holiday_card_copy.jpg', download 326550/400249
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 474013/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/4454/screenshots/1830811/holiday_card_copy.jpg', download 359318/400249
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 506781/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/4454/screenshots/1830811/holiday_card_copy.jpg', download 392086/400249
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 539549/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 572317/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 605085/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 654237/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/4454/screenshots/1830811/holiday_card_copy.jpg', download 400249/400249
+[INFO]  HTTP 200(HTTP/1.1 200 OK)
+        https://d13yacurqjgara.cloudfront.net/users/4454/screenshots/1830811/holiday_card_copy.jpg
+        
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/4454/screenshots/1830811/holiday_card_copy.jpg', succeed
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 687005/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 703389/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 719773/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 752541/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 768925/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 785309/793397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', download 793397/793397
+[INFO]  HTTP 200(HTTP/1.1 200 OK)
+        https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png
+        
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/120681/screenshots/1831133/circles.png', succeed
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/16711/screenshots/1831334/circles-conference.png', download 97171/244307
+[INFO]  view 'BeeUIButton', touch began
+        <BeeUIButton: 0x7b152f60; baseClass = UIButton; frame = (107 0; 107 44); alpha = 0.7; opaque = NO; layer = <CALayer: 0x7b153140>>
+[INFO]  view 'BeeUIButton', touch ended
+        <BeeUIButton: 0x7b152f60; baseClass = UIButton; frame = (107 0; 107 44); alpha = 0.7; opaque = NO; layer = <CALayer: 0x7b153140>>
+[PERF]  UIScrollView 0x7c961a00, reloadData
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 0 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 1 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 2 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 3 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 4 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 5 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 6 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 7 => 'DribbbleBoardCell_iPhone'
+[PERF]  Signal 'BeeUIFootLoader.FRAME_CHANGED' > FootLoader > BeeUIScrollView > DribbbleBoard_iPhone > Done
+[PERF]  Signal 'BeeUIButton.TOUCH_UP_INSIDE' > 'DribbbleBoardTab_iPhone #everyone' > BeeUIButton > DribbbleBoardTab_iPhone > DribbbleBoard_iPhone > Done
+[PERF]  Signal 'BeeUIPullLoader.STATE_CHANGED' > PullLoader > BeeUIScrollView > DribbbleBoard_iPhone > Done
+[PERF]  Signal 'BeeUIFootLoader.STATE_CHANGED' > FootLoader > BeeUIScrollView > DribbbleBoard_iPhone > Done
+[PERF]  Signal 'ShotEveryoneListModel.RELOADING' > ShotEveryoneListModel > DribbbleBoard_iPhone > Done
+[INFO]  Message 'API_SHOTS_LIST' sent
+[INFO]          HTTP GET http://api.dribbble.com/shots/everyone?page=1&per_page=30
+        (null)
+[INFO]          HTTP GET 'http://api.dribbble.com/shots/everyone?page=1&per_page=30', upload 0/0
+[INFO]          HTTP GET 'http://api.dribbble.com/shots/everyone?page=1&per_page=30', download 929/0
+[INFO]          HTTP GET 'http://api.dribbble.com/shots/everyone?page=1&per_page=30', download 7923/7923
+[INFO]  HTTP 200(HTTP/1.1 200 OK)
+        http://api.dribbble.com/shots/everyone?page=1&per_page=30
+        
+[INFO]  Message 'API_SHOTS_LIST' succeed
+[PERF]  Signal 'BeeUIPullLoader.STATE_CHANGED' > PullLoader > BeeUIScrollView > DribbbleBoard_iPhone > Done
+[PERF]  Signal 'BeeUIFootLoader.STATE_CHANGED' > FootLoader > BeeUIScrollView > DribbbleBoard_iPhone > Done
+[PERF]  Signal 'BeeUIFootLoader.STATE_CHANGED' > FootLoader > BeeUIScrollView > DribbbleBoard_iPhone > Done
+[PERF]  UIScrollView 0x7c961a00, reloadData
+[PERF]  visibleStart 0 => 0
+[PERF]  visibleEnd 0 => 8
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 0 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fe36150
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 1 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fe5a190
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 2 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fef3ab0
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 3 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fecfa70
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 4 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7feabdd0
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/16711/screenshots/1831334/circles-conference.png', cancelled
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 5 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fe87da0
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 6 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7b111960
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 7 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fcbc9d0
+[PERF]  Signal 'BeeUIFootLoader.FRAME_CHANGED' > FootLoader > BeeUIScrollView > DribbbleBoard_iPhone > Done
+[PERF]  Signal 'ShotEveryoneListModel.RELOADED' > ShotEveryoneListModel > DribbbleBoard_iPhone > Done
+[INFO]          HTTP GET 'http://api.dribbble.com/shots/everyone?page=1&per_page=30', succeed
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/157125/avatars/normal/feb509060de5c08b883fc47e082653cc.jpg?1408543361
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/avatars/normal/feb509060de5c08b883fc47e082653cc.jpg?1408543361', upload 0/0
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831949/fsc-14xmas-emaildribbble-snow.jpg
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831949/fsc-14xmas-emaildribbble-snow.jpg', upload 0/0
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/27320/avatars/normal/Screen_Shot_2013-06-16_at_10.27.41_PM.png?1371414484
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/27320/avatars/normal/Screen_Shot_2013-06-16_at_10.27.41_PM.png?1371414484', upload 0/0
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/551655/avatars/normal/Screen_Shot_2014-04-25_at_8.55.12_AM.png?1398467478
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/551655/avatars/normal/Screen_Shot_2014-04-25_at_8.55.12_AM.png?1398467478', upload 0/0
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/27320/screenshots/1831946/portfolio-dribbble.png
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/27320/screenshots/1831946/portfolio-dribbble.png', upload 0/0
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/551655/screenshots/1831948/screen_shot_2014-12-02_at_10.42.52_pm.png
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/551655/screenshots/1831948/screen_shot_2014-12-02_at_10.42.52_pm.png', upload 0/0
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831945/fsc-14xmas-emaildribbble.jpg
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831945/fsc-14xmas-emaildribbble.jpg', upload 0/0
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/62268/avatars/original/DSC00232_normal.jpg?1316197188
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/62268/avatars/original/DSC00232_normal.jpg?1316197188', upload 0/0
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/62268/avatars/original/DSC00232_normal.jpg?1316197188', download 5266/5266
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/62268/avatars/original/DSC00232_normal.jpg?1316197188', download 5266/5266
+[INFO]  HTTP 200(HTTP/1.1 200 OK)
+        https://d13yacurqjgara.cloudfront.net/users/62268/avatars/original/DSC00232_normal.jpg?1316197188
+        
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/62268/avatars/original/DSC00232_normal.jpg?1316197188', succeed
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/62268/screenshots/1831944/johnwayne.jpg
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/62268/screenshots/1831944/johnwayne.jpg', upload 0/0
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/27320/avatars/normal/Screen_Shot_2013-06-16_at_10.27.41_PM.png?1371414484', download 545/24946
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/27320/avatars/normal/Screen_Shot_2013-06-16_at_10.27.41_PM.png?1371414484', download 17528/24946
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831949/fsc-14xmas-emaildribbble-snow.jpg', download 8526/350276
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/551655/avatars/normal/Screen_Shot_2014-04-25_at_8.55.12_AM.png?1398467478', download 8528/54844
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/27320/avatars/normal/Screen_Shot_2013-06-16_at_10.27.41_PM.png?1371414484', download 24946/24946
+[INFO]  HTTP 200(HTTP/1.1 200 OK)
+        https://d13yacurqjgara.cloudfront.net/users/27320/avatars/normal/Screen_Shot_2013-06-16_at_10.27.41_PM.png?1371414484
+        
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/27320/avatars/normal/Screen_Shot_2013-06-16_at_10.27.41_PM.png?1371414484', succeed
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/43701/avatars/normal/cherry.png?1402120195
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/43701/avatars/normal/cherry.png?1402120195', upload 0/0
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/27320/screenshots/1831946/portfolio-dribbble.png', download 16384/332180
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/551655/screenshots/1831948/screen_shot_2014-12-02_at_10.42.52_pm.png', download 8527/109950
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831949/fsc-14xmas-emaildribbble-snow.jpg', download 47422/350276
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/551655/avatars/normal/Screen_Shot_2014-04-25_at_8.55.12_AM.png?1398467478', download 54844/54844
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/27320/screenshots/1831946/portfolio-dribbble.png', download 107527/332180
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/551655/screenshots/1831948/screen_shot_2014-12-02_at_10.42.52_pm.png', download 71527/109950
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/avatars/normal/feb509060de5c08b883fc47e082653cc.jpg?1408543361', download 49015/49015
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/avatars/normal/feb509060de5c08b883fc47e082653cc.jpg?1408543361', download 49015/49015
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831949/fsc-14xmas-emaildribbble-snow.jpg', download 47422/350276
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/551655/avatars/normal/Screen_Shot_2014-04-25_at_8.55.12_AM.png?1398467478', download 54844/54844
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/27320/screenshots/1831946/portfolio-dribbble.png', download 107527/332180
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/551655/screenshots/1831948/screen_shot_2014-12-02_at_10.42.52_pm.png', download 71527/109950
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/551655/avatars/normal/Screen_Shot_2014-04-25_at_8.55.12_AM.png?1398467478', download 54844/54844
+[INFO]  HTTP 200(HTTP/1.1 200 OK)
+        https://d13yacurqjgara.cloudfront.net/users/551655/avatars/normal/Screen_Shot_2014-04-25_at_8.55.12_AM.png?1398467478
+        
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/551655/avatars/normal/Screen_Shot_2014-04-25_at_8.55.12_AM.png?1398467478', succeed
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/43701/screenshots/1831943/law-shack--options-2.png
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/43701/screenshots/1831943/law-shack--options-2.png', upload 0/0
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831945/fsc-14xmas-emaildribbble.jpg', download 17527/82202
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/avatars/normal/feb509060de5c08b883fc47e082653cc.jpg?1408543361', download 49015/49015
+[INFO]  HTTP 200(HTTP/1.1 200 OK)
+        https://d13yacurqjgara.cloudfront.net/users/157125/avatars/normal/feb509060de5c08b883fc47e082653cc.jpg?1408543361
+        
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/avatars/normal/feb509060de5c08b883fc47e082653cc.jpg?1408543361', succeed
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/167977/avatars/normal/7c373d37d3c3977033017be9a9ccd52b.jpg?1408781429
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/167977/avatars/normal/7c373d37d3c3977033017be9a9ccd52b.jpg?1408781429', upload 0/0
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831949/fsc-14xmas-emaildribbble-snow.jpg', download 62526/350276
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/27320/screenshots/1831946/portfolio-dribbble.png', download 116527/332180
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/551655/screenshots/1831948/screen_shot_2014-12-02_at_10.42.52_pm.png', download 71527/109950
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831945/fsc-14xmas-emaildribbble.jpg', download 17527/82202
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/62268/screenshots/1831944/johnwayne.jpg', download 8526/170479
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/62268/screenshots/1831944/johnwayne.jpg', download 17526/170479
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/551655/screenshots/1831948/screen_shot_2014-12-02_at_10.42.52_pm.png', download 109950/109950
+[INFO]  HTTP 200(HTTP/1.1 200 OK)
+        https://d13yacurqjgara.cloudfront.net/users/551655/screenshots/1831948/screen_shot_2014-12-02_at_10.42.52_pm.png
+        
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/551655/screenshots/1831948/screen_shot_2014-12-02_at_10.42.52_pm.png', succeed
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/167977/screenshots/1831942/presentation_3.jpg
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/167977/screenshots/1831942/presentation_3.jpg', upload 0/0
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831949/fsc-14xmas-emaildribbble-snow.jpg', download 92422/350276
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/27320/screenshots/1831946/portfolio-dribbble.png', download 155423/332180
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831945/fsc-14xmas-emaildribbble.jpg', download 25935/82202
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/62268/screenshots/1831944/johnwayne.jpg', download 62526/170479
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831949/fsc-14xmas-emaildribbble-snow.jpg', download 127830/350276
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/27320/screenshots/1831946/portfolio-dribbble.png', download 215527/332180
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831945/fsc-14xmas-emaildribbble.jpg', download 63647/82202
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831945/fsc-14xmas-emaildribbble.jpg', download 82202/82202
+[INFO]  HTTP 200(HTTP/1.1 200 OK)
+        https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831945/fsc-14xmas-emaildribbble.jpg
+        
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831945/fsc-14xmas-emaildribbble.jpg', succeed
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/446706/avatars/normal/%E6%9C%AA%E6%A0%87%E9%A2%98-1.jpg?1388135253
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/446706/avatars/normal/%E6%9C%AA%E6%A0%87%E9%A2%98-1.jpg?1388135253', upload 0/0
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/43701/screenshots/1831943/law-shack--options-2.png', download 13032/25550
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/62268/screenshots/1831944/johnwayne.jpg', download 92422/170479
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/43701/screenshots/1831943/law-shack--options-2.png', download 25550/25550
+[INFO]  HTTP 200(HTTP/1.1 200 OK)
+        https://d13yacurqjgara.cloudfront.net/users/43701/screenshots/1831943/law-shack--options-2.png
+        
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/43701/screenshots/1831943/law-shack--options-2.png', succeed
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/446706/screenshots/1831941/03.png
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/446706/screenshots/1831941/03.png', upload 0/0
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/167977/avatars/normal/7c373d37d3c3977033017be9a9ccd52b.jpg?1408781429', download 15821/25269
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/167977/avatars/normal/7c373d37d3c3977033017be9a9ccd52b.jpg?1408781429', download 25269/25269
+[INFO]  HTTP 200(HTTP/1.1 200 OK)
+        https://d13yacurqjgara.cloudfront.net/users/167977/avatars/normal/7c373d37d3c3977033017be9a9ccd52b.jpg?1408781429
+        
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/167977/avatars/normal/7c373d37d3c3977033017be9a9ccd52b.jpg?1408781429', succeed
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831949/fsc-14xmas-emaildribbble-snow.jpg', download 152526/350276
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/27320/screenshots/1831946/portfolio-dribbble.png', download 251527/332180
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/62268/screenshots/1831944/johnwayne.jpg', download 152526/170479
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/43701/avatars/normal/cherry.png?1402120195', download 7249/7249
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/43701/avatars/normal/cherry.png?1402120195', download 7249/7249
+[INFO]  HTTP 200(HTTP/1.1 200 OK)
+        https://d13yacurqjgara.cloudfront.net/users/43701/avatars/normal/cherry.png?1402120195
+        
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/43701/avatars/normal/cherry.png?1402120195', succeed
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/62268/screenshots/1831944/johnwayne.jpg', download 170479/170479
+[INFO]  HTTP 200(HTTP/1.1 200 OK)
+        https://d13yacurqjgara.cloudfront.net/users/62268/screenshots/1831944/johnwayne.jpg
+        
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/62268/screenshots/1831944/johnwayne.jpg', succeed
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/27320/screenshots/1831946/portfolio-dribbble.png', download 332180/332180
+[INFO]  HTTP 200(HTTP/1.1 200 OK)
+        https://d13yacurqjgara.cloudfront.net/users/27320/screenshots/1831946/portfolio-dribbble.png
+        
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/27320/screenshots/1831946/portfolio-dribbble.png', succeed
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831949/fsc-14xmas-emaildribbble-snow.jpg', download 179526/350276
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831949/fsc-14xmas-emaildribbble-snow.jpg', download 214934/350276
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831949/fsc-14xmas-emaildribbble-snow.jpg', download 251526/350276
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831949/fsc-14xmas-emaildribbble-snow.jpg', download 287526/350276
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/167977/screenshots/1831942/presentation_3.jpg', download 8526/191375
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/446706/avatars/normal/%E6%9C%AA%E6%A0%87%E9%A2%98-1.jpg?1388135253', download 2896/11397
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/446706/avatars/normal/%E6%9C%AA%E6%A0%87%E9%A2%98-1.jpg?1388135253', download 11397/11397
+[INFO]  HTTP 200(HTTP/1.1 200 OK)
+        https://d13yacurqjgara.cloudfront.net/users/446706/avatars/normal/%E6%9C%AA%E6%A0%87%E9%A2%98-1.jpg?1388135253
+        
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/446706/avatars/normal/%E6%9C%AA%E6%A0%87%E9%A2%98-1.jpg?1388135253', succeed
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/167977/screenshots/1831942/presentation_3.jpg', download 17526/191375
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831949/fsc-14xmas-emaildribbble-snow.jpg', download 341526/350276
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831949/fsc-14xmas-emaildribbble-snow.jpg', download 350276/350276
+[INFO]  HTTP 200(HTTP/1.1 200 OK)
+        https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831949/fsc-14xmas-emaildribbble-snow.jpg
+        
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831949/fsc-14xmas-emaildribbble-snow.jpg', succeed
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/446706/screenshots/1831941/03.png', download 8527/213271
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/167977/screenshots/1831942/presentation_3.jpg', download 71526/191375
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/446706/screenshots/1831941/03.png', download 38423/213271
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/167977/screenshots/1831942/presentation_3.jpg', download 80526/191375
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/167977/screenshots/1831942/presentation_3.jpg', download 119422/191375
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/446706/screenshots/1831941/03.png', download 80359/213271
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/167977/screenshots/1831942/presentation_3.jpg', download 152526/191375
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/446706/screenshots/1831941/03.png', download 110423/213271
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/167977/screenshots/1831942/presentation_3.jpg', download 191375/191375
+[INFO]  HTTP 200(HTTP/1.1 200 OK)
+        https://d13yacurqjgara.cloudfront.net/users/167977/screenshots/1831942/presentation_3.jpg
+        
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/167977/screenshots/1831942/presentation_3.jpg', succeed
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/446706/screenshots/1831941/03.png', download 134359/213271
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/446706/screenshots/1831941/03.png', download 162975/213271
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/446706/screenshots/1831941/03.png', download 198807/213271
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/446706/screenshots/1831941/03.png', download 213271/213271
+[INFO]  HTTP 200(HTTP/1.1 200 OK)
+        https://d13yacurqjgara.cloudfront.net/users/446706/screenshots/1831941/03.png
+        
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/446706/screenshots/1831941/03.png', succeed
+[INFO]  view 'BeeUIButton', touch began
+        <BeeUIButton: 0x7fe1d1d0; baseClass = UIButton; frame = (2 4; 156 156); opaque = NO; layer = <CALayer: 0x7fe1d1a0>>
+[INFO]  view 'BeeUIButton', touch ended
+        <BeeUIButton: 0x7fe1d1d0; baseClass = UIButton; frame = (2 4; 156 156); opaque = NO; layer = <CALayer: 0x7fe1d1a0>>
+[PERF]  Signal 'BeeUIFootLoader.FRAME_CHANGED' > FootLoader > BeeUIScrollView > DribbbleBoard_iPhone > Done
+[PERF]  Signal 'BeeUIButton.TOUCH_UP_INSIDE' > 'DribbbleBoardCell_iPhone #mask' > BeeUIButton > DribbbleBoardCell_iPhone > BeeUIScrollView > DribbbleBoard_iPhone > Done
+[PERF]  UIScrollView 0x7c961a00, reloadData
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 0 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 1 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 2 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 3 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 4 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 5 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 6 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 7 => 'DribbbleBoardCell_iPhone'
+[PERF]  visibleStart 0 => 0
+[PERF]  visibleEnd 0 => 8
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 0 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fcbc9d0
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 1 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7b111960
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 2 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fe87da0
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 3 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7feabdd0
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 4 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fecfa70
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 5 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fef3ab0
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 6 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fe5a190
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 7 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fe36150
+[INFO]  view 'BeeUIButton', touch began
+        <BeeUIButton: 0x7fdc7e10; baseClass = UIButton; frame = (2 4; 316 316); opaque = NO; layer = <CALayer: 0x7fdc7f50>>
+[INFO]  view 'BeeUIButton', touch ended
+        <BeeUIButton: 0x7fdc7e10; baseClass = UIButton; frame = (2 4; 316 316); opaque = NO; layer = <CALayer: 0x7fdc7f50>>
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/DribbbleDetailBoard_iPhone.xml' loaded
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/PullLoader.xml' loaded
+[PERF]  Signal 'BeeUIPullLoader.FRAME_CHANGED' > PullLoader > Done
+[PERF]  Signal 'BeeUIPullLoader.FRAME_CHANGED' > PullLoader > Done
+[PERF]  Signal 'BeeUIPullLoader.FRAME_CHANGED' > PullLoader > BeeUIScrollView > DribbbleDetailBoard_iPhone > Done
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/FootLoader.xml' loaded
+[PERF]  Signal 'BeeUIFootLoader.FRAME_CHANGED' > FootLoader > Done
+[PERF]  Signal 'BeeUIFootLoader.FRAME_CHANGED' > FootLoader > Done
+[PERF]  Signal 'BeeUIBoard.CREATE_VIEWS' > DribbbleDetailBoard_iPhone > Done
+[PERF]  Signal 'BeeUIBoard.LOAD_DATAS' > DribbbleDetailBoard_iPhone > Done
+[PERF]  Signal 'BeeUIFootLoader.FRAME_CHANGED' > FootLoader > BeeUIScrollView > DribbbleBoard_iPhone > Done
+[PERF]  Signal 'BeeUIButton.TOUCH_UP_INSIDE' > 'DribbbleBoardCell_iPhone #mask' > BeeUIButton > DribbbleBoardCell_iPhone > BeeUIScrollView > DribbbleBoard_iPhone > Done
+[PERF]  UIScrollView 0x7c961400, reloadData
+[PERF]  Signal 'BeeUIPullLoader.FRAME_CHANGED' > PullLoader > BeeUIScrollView > DribbbleDetailBoard_iPhone > Done
+[PERF]  Signal 'BeeUIFootLoader.FRAME_CHANGED' > FootLoader > BeeUIScrollView > DribbbleDetailBoard_iPhone > Done
+[PERF]  Signal 'BeeUIBoard.LAYOUT_VIEWS' > DribbbleDetailBoard_iPhone > Done
+[PERF]  Signal 'BeeUIBoard.WILL_DISAPPEAR' > DribbbleBoard_iPhone > Done
+[PERF]  UIScrollView 0x7c961400, reloadData
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/DribbbleDetailBoardPlayer_iPhone.xml' loaded
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/DribbbleDetailBoardPhoto_iPhone.xml' loaded
+[PERF]  visibleStart 0 => 0
+[PERF]  visibleEnd 0 => 2
+[PERF]  UIScrollView 0x7c961400, dequeueItem 0 => 'DribbbleDetailBoardPlayer_iPhone'
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/DribbbleDetailBoardPlayer_iPhone.xml' loaded
+[PERF]  UIScrollView 0x7c961400, create 'DribbbleDetailBoardPlayer_iPhone' 0x7fddc410
+[PERF]  UIScrollView 0x7c961400, dequeueItem 1 => 'DribbbleDetailBoardPhoto_iPhone'
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/DribbbleDetailBoardPhoto_iPhone.xml' loaded
+[PERF]  UIScrollView 0x7c961400, create 'DribbbleDetailBoardPhoto_iPhone' 0x7fd73930
+[PERF]  Signal 'BeeUIFootLoader.STATE_CHANGED' > FootLoader > BeeUIScrollView > DribbbleDetailBoard_iPhone > Done
+[PERF]  Signal 'BeeUIFootLoader.FRAME_CHANGED' > FootLoader > BeeUIScrollView > DribbbleDetailBoard_iPhone > Done
+[PERF]  Signal 'BeeUIBoard.WILL_APPEAR' > DribbbleDetailBoard_iPhone > Done
+[PERF]  UIScrollView 0x7c961400, reloadData
+[PERF]  Signal 'BeeUIBoard.LAYOUT_VIEWS' > DribbbleDetailBoard_iPhone > Done
+[PERF]  UIScrollView 0x7c961400, reloadData
+[PERF]  Signal 'BeeUIBoard.LAYOUT_VIEWS' > DribbbleDetailBoard_iPhone > Done
+[PERF]  Signal 'ShotInfoModel.RELOADING' > ShotInfoModel > DribbbleDetailBoard_iPhone > Done
+[INFO]  Message 'API_SHOTS_ID' sent
+[PERF]  Signal 'ShotCommentsModel.RELOADING' > ShotCommentsModel > DribbbleDetailBoard_iPhone > Done
+[INFO]  Message 'API_SHOTS_ID_COMMENTS' sent
+[INFO]          HTTP GET http://api.dribbble.com/shots/1831949
+        (null)
+[INFO]          HTTP GET 'http://api.dribbble.com/shots/1831949', upload 0/0
+[INFO]          HTTP GET http://api.dribbble.com/shots/1831949/comments?page=1&per_page=20
+        (null)
+[INFO]          HTTP GET 'http://api.dribbble.com/shots/1831949/comments?page=1&per_page=20', upload 0/0
+[PERF]  UIScrollView 0x7c961400, enqueueItem 0 => 'DribbbleDetailBoardPlayer_iPhone'
+[PERF]  UIScrollView 0x7c961400, enqueueItem 1 => 'DribbbleDetailBoardPhoto_iPhone'
+[PERF]  visibleStart 0 => 0
+[PERF]  visibleEnd 0 => 2
+[PERF]  UIScrollView 0x7c961400, dequeueItem 0 => 'DribbbleDetailBoardPlayer_iPhone'
+[PERF]  UIScrollView 0x7c961400, dequeue 'DribbbleDetailBoardPlayer_iPhone' 0x7fddc410
+[PERF]  UIScrollView 0x7c961400, dequeueItem 1 => 'DribbbleDetailBoardPhoto_iPhone'
+[PERF]  UIScrollView 0x7c961400, dequeue 'DribbbleDetailBoardPhoto_iPhone' 0x7fd73930
+[PERF]  UIScrollView 0x7c961a00, reloadData
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 0 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 1 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 2 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 3 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 4 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 5 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 6 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, enqueueItem 7 => 'DribbbleBoardCell_iPhone'
+[PERF]  visibleStart 0 => 0
+[PERF]  visibleEnd 0 => 8
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 0 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fe36150
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 1 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fe5a190
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 2 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fef3ab0
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 3 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fecfa70
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 4 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7feabdd0
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 5 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fe87da0
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 6 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7b111960
+[PERF]  UIScrollView 0x7c961a00, dequeueItem 7 => 'DribbbleBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c961a00, dequeue 'DribbbleBoardCell_iPhone' 0x7fcbc9d0
+[PERF]  Signal 'BeeUIBoard.DID_DISAPPEAR' > DribbbleBoard_iPhone > Done
+[PERF]  Signal 'BeeUIBoard.DID_APPEAR' > DribbbleDetailBoard_iPhone > Done
+[INFO]          HTTP GET 'http://api.dribbble.com/shots/1831949/comments?page=1&per_page=20', download 70/70
+[INFO]          HTTP GET 'http://api.dribbble.com/shots/1831949/comments?page=1&per_page=20', download 70/70
+[INFO]  HTTP 200(HTTP/1.1 200 OK)
+        http://api.dribbble.com/shots/1831949/comments?page=1&per_page=20
+        
+[INFO]  Message 'API_SHOTS_ID_COMMENTS' succeed
+[PERF]  Signal 'BeeUIFootLoader.STATE_CHANGED' > FootLoader > BeeUIScrollView > DribbbleDetailBoard_iPhone > Done
+[PERF]  Signal 'BeeUIFootLoader.STATE_CHANGED' > FootLoader > BeeUIScrollView > DribbbleDetailBoard_iPhone > Done
+[PERF]  UIScrollView 0x7c961400, reloadData
+[PERF]  UIScrollView 0x7c961400, enqueueItem 0 => 'DribbbleDetailBoardPlayer_iPhone'
+[PERF]  UIScrollView 0x7c961400, enqueueItem 1 => 'DribbbleDetailBoardPhoto_iPhone'
+[PERF]  visibleStart 0 => 0
+[PERF]  visibleEnd 0 => 2
+[PERF]  UIScrollView 0x7c961400, dequeueItem 0 => 'DribbbleDetailBoardPlayer_iPhone'
+[PERF]  UIScrollView 0x7c961400, dequeue 'DribbbleDetailBoardPlayer_iPhone' 0x7fddc410
+[PERF]  UIScrollView 0x7c961400, dequeueItem 1 => 'DribbbleDetailBoardPhoto_iPhone'
+[PERF]  UIScrollView 0x7c961400, dequeue 'DribbbleDetailBoardPhoto_iPhone' 0x7fd73930
+[PERF]  Signal 'ShotCommentsModel.RELOADED' > ShotCommentsModel > DribbbleDetailBoard_iPhone > Done
+[INFO]          HTTP GET 'http://api.dribbble.com/shots/1831949/comments?page=1&per_page=20', succeed
+[INFO]          HTTP GET 'http://api.dribbble.com/shots/1831949', download 576/0
+[INFO]          HTTP GET 'http://api.dribbble.com/shots/1831949', download 576/576
+[INFO]  HTTP 200(HTTP/1.1 200 OK)
+        http://api.dribbble.com/shots/1831949
+        
+[INFO]  Message 'API_SHOTS_ID' succeed
+[PERF]  Signal 'BeeUIFootLoader.STATE_CHANGED' > FootLoader > BeeUIScrollView > DribbbleDetailBoard_iPhone > Done
+[PERF]  UIScrollView 0x7c961400, reloadData
+[PERF]  UIScrollView 0x7c961400, enqueueItem 0 => 'DribbbleDetailBoardPlayer_iPhone'
+[PERF]  UIScrollView 0x7c961400, enqueueItem 1 => 'DribbbleDetailBoardPhoto_iPhone'
+[PERF]  visibleStart 0 => 0
+[PERF]  visibleEnd 0 => 2
+[PERF]  UIScrollView 0x7c961400, dequeueItem 0 => 'DribbbleDetailBoardPlayer_iPhone'
+[PERF]  UIScrollView 0x7c961400, dequeue 'DribbbleDetailBoardPlayer_iPhone' 0x7fddc410
+[PERF]  UIScrollView 0x7c961400, dequeueItem 1 => 'DribbbleDetailBoardPhoto_iPhone'
+[PERF]  UIScrollView 0x7c961400, dequeue 'DribbbleDetailBoardPhoto_iPhone' 0x7fd73930
+[PERF]  Signal 'ShotInfoModel.RELOADED' > ShotInfoModel > DribbbleDetailBoard_iPhone > Done
+[INFO]          HTTP GET 'http://api.dribbble.com/shots/1831949', succeed
+[INFO]  view 'BeeUIButton', touch began
+        <BeeUIButton: 0x7fdf79d0; baseClass = UIButton; frame = (4 4; 312 44); opaque = NO; layer = <CALayer: 0x7fdf7b10>>
+[INFO]  view 'BeeUIButton', touch ended
+        <BeeUIButton: 0x7fdf79d0; baseClass = UIButton; frame = (4 4; 312 44); opaque = NO; layer = <CALayer: 0x7fdf7b10>>
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/DribbbleProfileBoard_iPhone.xml' loaded
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/PullLoader.xml' loaded
+[PERF]  Signal 'BeeUIPullLoader.FRAME_CHANGED' > PullLoader > Done
+[PERF]  Signal 'BeeUIPullLoader.FRAME_CHANGED' > PullLoader > Done
+[PERF]  Signal 'BeeUIPullLoader.FRAME_CHANGED' > PullLoader > BeeUIScrollView > DribbbleProfileBoard_iPhone > Done
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/FootLoader.xml' loaded
+[PERF]  Signal 'BeeUIFootLoader.FRAME_CHANGED' > FootLoader > Done
+[PERF]  Signal 'BeeUIFootLoader.FRAME_CHANGED' > FootLoader > Done
+[PERF]  Signal 'BeeUIBoard.CREATE_VIEWS' > DribbbleProfileBoard_iPhone > Done
+[PERF]  Signal 'BeeUIBoard.LOAD_DATAS' > DribbbleProfileBoard_iPhone > Done
+[PERF]  Signal 'BeeUIButton.TOUCH_UP_INSIDE' > 'DribbbleDetailBoardPlayer_iPhone #mask' > BeeUIButton > DribbbleDetailBoardPlayer_iPhone > BeeUIScrollView > DribbbleDetailBoard_iPhone > Done
+[PERF]  UIScrollView 0x7c1aaa00, reloadData
+[PERF]  Signal 'BeeUIPullLoader.FRAME_CHANGED' > PullLoader > BeeUIScrollView > DribbbleProfileBoard_iPhone > Done
+[PERF]  Signal 'BeeUIFootLoader.FRAME_CHANGED' > FootLoader > BeeUIScrollView > DribbbleProfileBoard_iPhone > Done
+[PERF]  Signal 'BeeUIBoard.LAYOUT_VIEWS' > DribbbleProfileBoard_iPhone > Done
+[PERF]  Signal 'BeeUIBoard.WILL_DISAPPEAR' > DribbbleDetailBoard_iPhone > Done
+[PERF]  UIScrollView 0x7c1aaa00, reloadData
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/DribbbleProfileBoardCell_iPhone.xml' loaded
+[PERF]  visibleStart 0 => 0
+[PERF]  visibleEnd 0 => 1
+[PERF]  UIScrollView 0x7c1aaa00, dequeueItem 0 => 'DribbbleProfileBoardCell_iPhone'
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/DribbbleProfileBoardCell_iPhone.xml' loaded
+[PERF]  UIScrollView 0x7c1aaa00, create 'DribbbleProfileBoardCell_iPhone' 0x7ff85300
+[PERF]  Signal 'BeeUIFootLoader.STATE_CHANGED' > FootLoader > BeeUIScrollView > DribbbleProfileBoard_iPhone > Done
+[PERF]  Signal 'BeeUIFootLoader.FRAME_CHANGED' > FootLoader > BeeUIScrollView > DribbbleProfileBoard_iPhone > Done
+[PERF]  Signal 'BeeUIBoard.WILL_APPEAR' > DribbbleProfileBoard_iPhone > Done
+[PERF]  UIScrollView 0x7c1aaa00, reloadData
+[PERF]  Signal 'BeeUIBoard.LAYOUT_VIEWS' > DribbbleProfileBoard_iPhone > Done
+[PERF]  UIScrollView 0x7c1aaa00, reloadData
+[PERF]  Signal 'BeeUIBoard.LAYOUT_VIEWS' > DribbbleProfileBoard_iPhone > Done
+[PERF]  Signal 'PlayerShotsModel.RELOADING' > PlayerShotsModel > DribbbleProfileBoard_iPhone > Done
+[INFO]  Message 'API_PLAYERS_ID_SHOTS' sent
+[INFO]          HTTP GET http://api.dribbble.com/players/157125/shots?page=1&per_page=30
+        (null)
+[INFO]          HTTP GET 'http://api.dribbble.com/players/157125/shots?page=1&per_page=30', upload 0/0
+[PERF]  UIScrollView 0x7c1aaa00, enqueueItem 0 => 'DribbbleProfileBoardCell_iPhone'
+[PERF]  visibleStart 0 => 0
+[PERF]  visibleEnd 0 => 1
+[PERF]  UIScrollView 0x7c1aaa00, dequeueItem 0 => 'DribbbleProfileBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c1aaa00, dequeue 'DribbbleProfileBoardCell_iPhone' 0x7ff85300
+[INFO]          HTTP GET http://d13yacurqjgara.cloudfront.net/users/14268/screenshots/992731/attachments/116296/huge.jpg
+        (null)
+[INFO]          HTTP GET 'http://d13yacurqjgara.cloudfront.net/users/14268/screenshots/992731/attachments/116296/huge.jpg', upload 0/0
+[PERF]  Signal 'BeeUIBoard.DID_DISAPPEAR' > DribbbleDetailBoard_iPhone > Done
+[PERF]  Signal 'BeeUIBoard.DID_APPEAR' > DribbbleProfileBoard_iPhone > Done
+[INFO]          HTTP GET 'http://d13yacurqjgara.cloudfront.net/users/14268/screenshots/992731/attachments/116296/huge.jpg', download 805/724541
+[INFO]          HTTP GET 'http://d13yacurqjgara.cloudfront.net/users/14268/screenshots/992731/attachments/116296/huge.jpg', download 25749/724541
+[INFO]          HTTP GET 'http://api.dribbble.com/players/157125/shots?page=1&per_page=30', download 930/0
+[INFO]          HTTP GET 'http://api.dribbble.com/players/157125/shots?page=1&per_page=30', download 3678/3678
+[INFO]  HTTP 200(HTTP/1.1 200 OK)
+        http://api.dribbble.com/players/157125/shots?page=1&per_page=30
+        
+[INFO]  Message 'API_PLAYERS_ID_SHOTS' succeed
+[PERF]  Signal 'BeeUIFootLoader.STATE_CHANGED' > FootLoader > BeeUIScrollView > DribbbleProfileBoard_iPhone > Done
+[PERF]  Signal 'BeeUIFootLoader.STATE_CHANGED' > FootLoader > BeeUIScrollView > DribbbleProfileBoard_iPhone > Done
+[PERF]  UIScrollView 0x7c1aaa00, reloadData
+[PERF]  UIScrollView 0x7c1aaa00, enqueueItem 0 => 'DribbbleProfileBoardCell_iPhone'
+[PERF]  visibleStart 0 => 0
+[PERF]  visibleEnd 0 => 3
+[PERF]  UIScrollView 0x7c1aaa00, dequeueItem 0 => 'DribbbleProfileBoardCell_iPhone'
+[PERF]  UIScrollView 0x7c1aaa00, dequeue 'DribbbleProfileBoardCell_iPhone' 0x7ff85300
+[PERF]  UIScrollView 0x7c1aaa00, dequeueItem 1 => 'DribbbleBoardCell_iPhone'
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/DribbbleBoardCell_iPhone.xml' loaded
+[PERF]  UIScrollView 0x7c1aaa00, create 'DribbbleBoardCell_iPhone' 0x7ff91430
+[PERF]  UIScrollView 0x7c1aaa00, dequeueItem 2 => 'DribbbleBoardCell_iPhone'
+[INFO]  Template '/Users/jebai/Documents/code/BeeFramework/projects/dribbble/dribbble/view_iPhone/templates/DribbbleBoardCell_iPhone.xml' loaded
+[PERF]  UIScrollView 0x7c1aaa00, create 'DribbbleBoardCell_iPhone' 0x7b10a380
+[PERF]  Signal 'BeeUIFootLoader.FRAME_CHANGED' > FootLoader > BeeUIScrollView > DribbbleProfileBoard_iPhone > Done
+[PERF]  Signal 'PlayerShotsModel.RELOADED' > PlayerShotsModel > DribbbleProfileBoard_iPhone > Done
+[INFO]          HTTP GET 'http://api.dribbble.com/players/157125/shots?page=1&per_page=30', succeed
+[INFO]          HTTP GET 'http://d13yacurqjgara.cloudfront.net/users/14268/screenshots/992731/attachments/116296/huge.jpg', download 53109/724541
+[INFO]          HTTP GET https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831955/screen_shot_2014-12-02_at_10.53.15_pm.png
+        (null)
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831955/screen_shot_2014-12-02_at_10.53.15_pm.png', upload 0/0
+[INFO]          HTTP GET 'http://d13yacurqjgara.cloudfront.net/users/14268/screenshots/992731/attachments/116296/huge.jpg', download 94149/724541
+[INFO]          HTTP GET 'http://d13yacurqjgara.cloudfront.net/users/14268/screenshots/992731/attachments/116296/huge.jpg', download 131085/724541
+[INFO]          HTTP GET 'http://d13yacurqjgara.cloudfront.net/users/14268/screenshots/992731/attachments/116296/huge.jpg', download 159813/724541
+[INFO]          HTTP GET 'http://d13yacurqjgara.cloudfront.net/users/14268/screenshots/992731/attachments/116296/huge.jpg', download 162549/724541
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831955/screen_shot_2014-12-02_at_10.53.15_pm.png', download 8527/181161
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831955/screen_shot_2014-12-02_at_10.53.15_pm.png', download 8527/181161
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831955/screen_shot_2014-12-02_at_10.53.15_pm.png', download 35527/181161
+[INFO]          HTTP GET 'http://d13yacurqjgara.cloudfront.net/users/14268/screenshots/992731/attachments/116296/huge.jpg', download 163917/724541
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831955/screen_shot_2014-12-02_at_10.53.15_pm.png', download 71527/181161
+[INFO]          HTTP GET 'https://d13yacurqjgara.cloudfront.net/users/157125/screenshots/1831955/screen_shot_2014-12-02_at_10.53.15_pm.png', download 107527/181161
+[INFO]          HTTP GET 'http://d13yacurqjgara.cloudfront.net/users/14268/screenshots/992731/attachments/116296/huge.jpg', download 165285/724541
+[INFO]          HTTP GET 'http://d13yacurqjgara.cloudfront.net/users/14268/screenshots/992731/attachments/116296/huge.jpg', download 166653/724541
+[INFO]          HTTP GET 'http://d13yacurqjgara.cloudfront.net/users/14268/screenshots/992731/attachments/116296/huge.jpg', download 168021/724541
